@@ -1,0 +1,50 @@
+/ecommerce-admin-dashboard
+│── /public
+│── /src
+│   │── /assets                 # Static assets (images, logos, icons)
+│   │── /components             # Reusable UI components
+│   │   │── Navbar.jsx
+│   │   │── Sidebar.jsx
+│   │   │── Card.jsx
+│   │   │── Button.jsx
+│   │   │── Table.jsx
+│   │   │── Loader.jsx
+│   │   │── SignOut.jsx
+│   │── /context                # Global state management (Auth, Theme)
+│   │   │── AuthContext.js
+│   │── /pages                  # Page components (Dashboard, Products, Orders)
+│   │   │── /auth
+│   │   │   │── Login.jsx
+│   │   │   │── Register.jsx
+│   │   │── /dashboard
+│   │   │   │── Dashboard.jsx
+│   │   │── /catalog
+│   │   │   │── ProductsList.jsx
+│   │   │   │── Product.jsx
+│   │   │   │── CategoriesList.jsx
+│   │   │   │── Category.jsx
+│   │   │── /customers
+│   │   │   │── CustomersList.jsx
+│   │   │   │── Customer.jsx
+│   │   │── /orders
+│   │   │   │── OrdersList.jsx
+│   │   │   │── OrderDetails.jsx
+│   │   │── /settings
+│   │   │   │── Profile.jsx
+│   │   │   │── Inbox.jsx
+│   │   │   │── Settings.jsx
+│   │── /routes                 # Route protection & navigation
+│   │   │── PrivateRoute.jsx
+│   │── /services               # API services (CRUD operations)
+│   │   │── productService.js
+│   │   │── orderService.js
+│   │   │── customerService.js
+│   │── /styles                 # Global styles (Tailwind)
+│   │   │── index.css
+│   │── App.js                   # Main component
+│   │── index.js                 # Entry point
+│── package.json
+│── tailwind.config.js
+│── postcss.config.js
+│── vite.config.js (if using Vite)
+│── README.md
